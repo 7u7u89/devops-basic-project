@@ -19,6 +19,10 @@ Simple containerized web application deployed using Docker.
 
 User → Browser → Nginx Container → Web Content
 
+## Screenshot
+
+![DevOps Basic Project](images/screenshot.png)
+
 ## How to Run
 ```bash
 chmod +x deploy.sh
