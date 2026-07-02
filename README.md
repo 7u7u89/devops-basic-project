@@ -1,11 +1,25 @@
-# DevOps Basic Project
+# DevOps Basic Project 🚀
 
 ## Description
-Project ini mensimulasikan deployment aplikasi sederhana menggunakan Docker.
+Project ini merupakan simulasi deployment aplikasi sederhana menggunakan Docker dan Docker Compose.
 
 ## Features
-- Dockerized web application
-- Automation dengan bash script
+- Dockerized NGINX application
+- Automation deployment menggunakan Bash
+- Expose service ke localhost
 
-## Usage
+## Tech Stack
+- Docker
+- Docker Compose
+- Nginx
+- Bash
+
+## Architecture
+Simple containerized web application deployed using Docker.
+
+User → Browser → Nginx Container → Web Content
+
+## How to Run
+```bash
+chmod +x deploy.sh
 ./deploy.sh
