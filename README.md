@@ -23,6 +23,26 @@ User → Browser → Nginx Container → Web Content
 
 ![DevOps Basic Project](images/screenshot.png)
 
+## Reverse Proxy Containeronfiguration
+
+NGINX digunakan sebagai Reverse Proxy untuk meneruskan request dari port 80 ke aplikasi Docker yang berjalan pada port 8080.
+
+User
+↓
+NGINX Reverse Proxy (Port 80)
+↓
+Docker Container (Port 8080)
+↓
+Web Application
+
+## Technologies
+
+- Docker
+- Docker Compose
+- NGINX
+- Bash
+- Linux
+- Git
 ## How to Run
 ```bash
 chmod +x deploy.sh
