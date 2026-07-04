@@ -40,9 +40,12 @@ Web Application
 - Docker
 - Docker Compose
 - NGINX
+- Reverse Proxy
+- Networking Fundamentals
 - Bash
 - Linux
 - Git
+
 ## How to Run
 ```bash
 chmod +x deploy.sh
